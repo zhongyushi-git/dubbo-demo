@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class UserController {
 
     //调用远程接口
-    @Reference
+    @Reference(loadbalance = "random")
     private UserService userService;
 
     @RequestMapping("/get")
