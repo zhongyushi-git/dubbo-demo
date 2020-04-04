@@ -21,4 +21,5 @@
     <dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
     <!--指定服务的包扫描-->
     <dubbo:annotation package="com.zys.dubbo.service.impl"/>
+    <dubbo:consumer check="false"/>
 </beans>
