@@ -1,3 +1,0 @@
-127.0.0.1 - - [04/Apr/2020:15:38:50 +0800] "GET /user/get.do HTTP/1.1" 500 3698 http-bio-8082-exec-1 48
-127.0.0.1 - - [04/Apr/2020:15:38:50 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8082-exec-2 2
-127.0.0.1 - - [04/Apr/2020:15:39:17 +0800] "GET /user/get.do HTTP/1.1" 200 7 http-bio-8082-exec-1 161
